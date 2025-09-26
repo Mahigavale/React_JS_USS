@@ -7,12 +7,12 @@ function Inputvalues()
 let str;
 
 
-setTimeout(()=>
-{
-    str= window.prompt("enter the value...");
-    change2(str);
+// setTimeout(()=>
+// {
+//     str= window.prompt("enter the value...");
+//     change2(str);
 
-},10000)
+// },10000)
  
 
 
