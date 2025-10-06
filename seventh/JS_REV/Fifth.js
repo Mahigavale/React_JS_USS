@@ -21,10 +21,18 @@
         
     // })
 
+ 
 
-   const res=  await fetch("https://dummyjson.com/todos");
-     const data=await  res.json();
-     console.log(data.todos);
+    var data=new Array();
+   const res=  await fetch("http://localhost:8080/get-all");
+      data=await  res.json();
+     console.log(data);
+  
+     console.log(data.length);
+     
+  
+     
+     
      
 }
 
